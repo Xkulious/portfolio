@@ -3,12 +3,7 @@ body {
   font-weight: thin;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-html {
+body, html, h1{
   margin: 0;
   padding: 0;
 }
@@ -25,9 +20,12 @@ html {
   text-decoration: underline;
   text-decoration-color: darkslategray;
   font-size: 4em;
-  color: rgb(49, 49, 49);
+  color: white;
   padding-top: 250px;
   padding-right: 20px;
+  background-color: darkslategray;
+  
+  margin: 0;
 }
 
 .MeatnPotatos {
