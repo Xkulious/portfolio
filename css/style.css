@@ -1,0 +1,76 @@
+body {
+  font-family: Georgia, serif;
+  font-weight: thin;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 956px 956px;
+  grid-template-rows: 930px;
+  animation: 5s ease-out 0s 1 fadein;
+}
+
+.nametitle {
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-color: darkslategray;
+  font-size: 4em;
+  color: rgb(49, 49, 49);
+  padding-top: 250px;
+  padding-right: 20px;
+  /* border-style: none solid none none; */
+  border-color: rgb(7, 146, 146);
+}
+
+.MeatnPotatos {
+  font-family: Verdana, sans-serif;
+  margin-top: 200px;
+  overflow-y: scroll;
+  width: 400px;
+  height: 550px;
+}
+
+.MeatnPotatos::-webkit-scrollbar {
+  display: none;
+}
+
+.mp{
+  padding: 30px;
+  
+}
+
+.mp a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+  font-size: 2em;
+  padding: 30px;
+  transition-duration: 600ms;
+}
+
+.mp a:hover {
+  background-color: darkslategray;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0%;
+  }
+  20%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
