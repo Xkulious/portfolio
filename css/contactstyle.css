@@ -8,7 +8,7 @@ html, body{
 body {
     font-family: Georgia, serif;
     font-weight: thin;
-    animation: 5s ease-out 0s 1 fadein;
+    animation: 2s ease-out 0s 1 fadein;
 }
 
 h1{
