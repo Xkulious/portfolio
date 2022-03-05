@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,30 @@
     <link rel="stylesheet" href="css/contactstyle.css">
     <title>Contact BoEn</title>
 </head>
+
 <body>
     <div class="container">
         <h1>Contact Me</h1>
-        <form>
+        <form action="https://formsubmit.co/boenliu@outlook.com" method="POST">
             <div class="name">
                 <label for="name">Name</label>
                 <input type="text" id="name" required>
             </div>
             <div class="email">
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="text" id="email" required>
             </div>
             <div class="phonenumber">
                 <label for="phonenumber">Phone Number</label>
-                <input type="text" id="">
+                <input type="text" id="phonenumber">
             </div>
+            <div class="message">
+                <label for="message">message</label>
+                <input type="text" id="message">
+            </div>
+            <button type="submit">Send</button>
         </form>
     </div>
 </body>
+
 </html>
