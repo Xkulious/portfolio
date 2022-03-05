@@ -1,4 +1,9 @@
+html{
+  height: 100%;
+}
+
 body {
+  height: 100%;
   font-family: Georgia, serif;
   font-weight: thin;
 }
@@ -9,16 +14,18 @@ body, html, h1{
 }
 
 .container {
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 956px 956px;
-  grid-template-rows: 930px;
+  height: 100%;
   animation: 5s ease-out 0s 1 fadein;
 }
 
 .nametitle {
   text-align: right;
   text-decoration: underline;
-  text-decoration-color: darkslategray;
+  text-decoration-color: white;
   font-size: 4em;
   color: white;
   padding-top: 250px;
