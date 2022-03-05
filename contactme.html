@@ -11,28 +11,36 @@
 
 <body>
     <div class="container">
-        <h1>Contact Me</h1>
+        <h1>Contact <br>Me</h1>
         <form action="https://formsubmit.co/52bb3d887e1bbb00925138d1e95c9def" method="POST">
             <input type="text" name="_things" style="display: none;">
             <input type="hidden" name="_captcha" value="false">
 
             <div class="name">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" required>
+                <br>
+                <input type="text" name="name" id="name" size="50" required>
             </div>
             <div class="email">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" required>
+                <br>
+                <input type="text" name="email" id="email" size="50" required>
             </div>
             <div class="phonenumber">
                 <label for="phonenumber">Phone Number</label>
-                <input type="text" name="phone" id="phonenumber">
+                <br>
+                <input type="text" name="phone" id="phonenumber" size="50">
             </div>
             <div class="message">
-                <label for="message">message</label>
-                <input type="text" name="message" id="message">
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" rows="4" cols="50"></textarea>
             </div>
+            <br>
             <button type="submit">Send</button>
+            <button>
+                <a href="index.html">Cancel and Return Home</a>
+            </button>
         </form>
     </div>
 </body>
