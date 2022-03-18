@@ -40,7 +40,6 @@ body, html, h1{
   width: auto;
   overflow: hidden;
   transition: background-image 1s linear;
-  background-image: url("images/default.jpg");
   background-position: center;
   background-size: cover;
 }
