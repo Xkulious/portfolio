@@ -5,7 +5,7 @@ const contact = document.querySelector("#contact");
 const projects = document.querySelector("#projects");
 
 
-backgroundImage.style.backgroundImage = "url('images/default.jpg')";
+backgroundImage.style.backgroundImage = "url('images/white2.png')";
 
 resume.addEventListener("mouseenter", () => {
     backgroundImage.style.backgroundImage = "url('images/resume.jpg')";

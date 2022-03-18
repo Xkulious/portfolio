@@ -6,6 +6,23 @@ html, body{
     justify-content: center;
 }
 
+body{
+    background-image: "";
+    transition: background-image 1s linear;
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
 .grid-container{
     padding: 10%;
     display: grid;
@@ -22,10 +39,11 @@ html, body{
 }
 
 .desc{
-    padding-top: 100px;
+    margin-top: 100px;
     /* padding: 30px; */
     position: fixed;
     width: 500px;
+    background-color: rgb(0, 0, 0, .2);
 }
 
 .pixelated{
@@ -36,13 +54,9 @@ html, body{
     opacity: 0;
 }
 
-.buttons{
+.button-container{
     display: grid;
     grid-template-columns: auto auto;
     text-align: right;
     padding: 60px;
-}
-
-.butt{
-    border-radius: 50%;
 }
