@@ -1,15 +1,18 @@
 const backgroundImage = document.querySelector(".MeatnPotatos");
-const backgroundTrans = document.querySelector(".background-trans");
+const backgroundTrans = document.querySelector(".transparency");
 const resume = document.querySelector("#resume");
 const contact = document.querySelector("#contact");
 const projects = document.querySelector("#projects");
+
+
+backgroundImage.style.backgroundImage = "url('images/default.jpg')";
 
 resume.addEventListener("mouseenter", () => {
     backgroundImage.style.backgroundImage = "url('images/resume.jpg')";
 });
 
 resume.addEventListener("mouseleave", () => {
-    backgroundImage.style.backgroundImage = "";
+    backgroundImage.style.backgroundImage = "url('images/default.jpg')";
 });
 
 contact.addEventListener("mouseenter", () => {
@@ -17,7 +20,7 @@ contact.addEventListener("mouseenter", () => {
 });
 
 contact.addEventListener("mouseleave", () => {
-    backgroundImage.style.backgroundImage = "";
+    backgroundImage.style.backgroundImage = "url('images/default.jpg')";
 });
 
 projects.addEventListener("mouseenter", () => {
@@ -25,5 +28,5 @@ projects.addEventListener("mouseenter", () => {
 });
 
 projects.addEventListener("mouseleave", () => {
-    backgroundImage.style.backgroundImage = "";
+    backgroundImage.style.backgroundImage = "url('images/default.jpg')";
 });
