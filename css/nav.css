@@ -11,7 +11,7 @@ nav ul{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     text-align: center;
 }
 
