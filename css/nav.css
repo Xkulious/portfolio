@@ -2,7 +2,7 @@ nav{
     margin: 0;
     padding: 10px;
     position: fixed;
-    background-color: rgba(47, 79, 79);
+    background-color: darkslategray;
     width: 100%;
 }
 
@@ -22,15 +22,17 @@ li a{
     font-size: 12px;
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px){ /* why did you do this */
     nav{
         padding: 0;
         opacity: 0.2;
+        background-color: black;
         transition: 0.4s;
     }
     
     nav:hover{
         opacity: 1;
+        background-color: darkslategray;
     }
     
     li a{

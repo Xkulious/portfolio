@@ -53,7 +53,7 @@ button a{
 
 .container{
     display: grid;
-    grid-template-columns: 45% auto;
+    grid-template-columns: auto auto;
 }
 
 .container h1{
