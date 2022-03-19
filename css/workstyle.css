@@ -17,12 +17,6 @@ body{
     background-repeat: no-repeat;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    background-color: black;
-}
-
 .grid-container{
     padding: 10%;
     display: grid;
@@ -48,6 +42,12 @@ a{
     position: fixed;
     width: 400px;
     background-color: #57575748;
+}
+
+.desc a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
 }
 
 .pixelated{

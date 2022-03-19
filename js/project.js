@@ -8,17 +8,19 @@ document.body.style.backgroundImage = "url('images/white.png')";
 
 pButton.addEventListener("click", () => {
     pDesc.style.opacity = "1";
-    mDesc.style.opacity = "0";
-    oDesc.style.opacity = "0";
+    pDesc.style.visibility = "visible";
     document.body.style.backgroundImage = "url('images/pixelated.png')";
     document.querySelector("h1").style.color = "black";
     document.querySelector("h3").style.color = "black";
+    mDesc.style.visibility = "hidden";
+    oDesc.style.visibility = "hidden";
 });
 
 mButton.addEventListener("click", () => {
     mDesc.style.opacity = "1";
-    pDesc.style.opacity = "0";
-    oDesc.style.opacity = "0";
+    mDesc.style.visibility = "visible";
     document.body.style.backgroundImage = "url('images/relativeexpression.png')";
     document.querySelector("h1").style.color = "white";
+    pDesc.style.visibility = "hidden";
+    oDesc.style.visibility = "hidden";
 });
